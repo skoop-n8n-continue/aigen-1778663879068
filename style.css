@@ -67,26 +67,6 @@ body {
     z-index: 12;
 }
 
-.second-hand {
-    width: 0.8%;
-    height: 42%;
-    background-color: #e63946;
-    margin-left: -0.4%;
-    z-index: 13;
-}
-
-/* Red tail for the second hand */
-.second-hand::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 25%;
-    background-color: #e63946;
-    border-radius: 1vmin;
-}
-
 .center-dot {
     position: absolute;
     top: 50%;
@@ -98,19 +78,6 @@ body {
     transform: translate(-50%, -50%);
     z-index: 20;
     box-shadow: 0 0 1vmin rgba(0,0,0,0.3);
-}
-
-/* Center dot inner accent */
-.center-dot::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    height: 40%;
-    background-color: #e63946;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .number {
